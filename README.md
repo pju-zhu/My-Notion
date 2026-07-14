@@ -79,7 +79,7 @@
 1. **克隆仓库**
 
    ```bash
-   git clone https://github.com/HaveNiceDa/Notion.git
+   git clone https://github.com/pju-zhu/My-Notion.git
    cd notion
    ```
 
