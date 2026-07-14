@@ -1,0 +1,23 @@
+---
+description: Mock-interview answers avoid repo-specific paths and filenames
+alwaysApply: true
+---
+
+# Interview-oriented answers (oral exam style)
+
+When the user is preparing for or simulating **technical interviews** (including questions about「这个项目」「你们项目」「你怎么做的」), assume the **interviewer has no access to this repository** and does not see filenames or folder layout.
+
+## Do
+
+- Describe behavior in **architecture and responsibility terms**: layered UI, providers, global vs local state, data fetching at the page/feature layer, accessibility baseline from the component primitive library.
+- Use **generic tech names** when helpful (e.g. React, Next.js, Radix/shadcn-style dialogs, Zustand, Convex) without tying them to this repo’s layout.
+- Keep answers **spoken-script friendly**: short hierarchy, one closing line, expandable if they drill down.
+
+## Do not
+
+- Name **files**, **directories**, **import paths**, or **internal symbols** (hooks/stores/components) that only exist in this codebase (e.g. `src/...`, `@/...`, `modal-provider.tsx`, project-specific hook names).
+- Quote **code blocks** or line-level implementation unless the user explicitly asks for code or debugging help.
+
+## Exceptions
+
+- If the user **explicitly** asks「对应哪个文件」「贴一段代码」「帮我改 bug」, then paths and code are allowed.
